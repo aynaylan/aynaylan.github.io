@@ -1,0 +1,30 @@
+  
+  #myBtn{
+    border-radius: 20%; 
+    display: none; 
+    position: fixed;right: 30px;
+     color: white;
+     outline: none;
+     bottom: 20px;
+     border:none;
+    padding: 15px;
+    background-color: red;
+
+  }
+
+  #myBtn:hover {
+    background-color: #ff7979;
+    
+  }
+
+table {
+  height: 200px;
+  width: 100%;
+}
+
+table img{
+  height: 150px;
+  width: 150px;
+  border-radius: 20%;
+}
+

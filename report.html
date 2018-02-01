@@ -1,74 +1,81 @@
 <html>
-  <head>
-    <title>e-Response</title>
- 	<link rel="stylesheet" type="text/css" href="css/bootstrap.css">
-	<script type="text/javascript" src="js/jquery.min.js"></script>
-	<script type="text/javascript" src="js/bootstrap.min.js"></script>
+<head>
+  <title>e-Response</title>
+  <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+  <script type="text/javascript" src="js/jquery.min.js"></script>
+  <script type="text/javascript" src="js/bootstrap.min.js"></script>
+  <link rel="stylesheet" type="text/css" href="custom.css">
+    <script type="text/javascript" src="custom.js"></script>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
 
-<meta name="viewport" content="width=device-width, initial-scale=1">
-   
-  </head>
-  <body>
-  	<nav class="nav navbar-default">
+</head>
+<body>
+ <nav class="nav navbar-default">
 
-  		<div class="navbar-header">
-  		<div class="nav navbar-brand">
-  			<a href="index.html">e-Response</a>
-  		</div>
+  <div class="navbar-header">
+    <div class="nav navbar-brand">
+     <a href="index.html">e-Response</a>
+   </div>
 
-  		<ul class="nav navbar-nav">
-  			<li><a href="#About">Report</a></li>
-  			<li><a href="#About">Contact us</a></li>
-  			<li><a href="#log">Login</a></li>
-  		</ul>
-  		</div>
-  	</nav>
-<div>
-  <p>
-    The data you will provide below will be stored in our database for future reference and your Private information will not be shown to our report reviewers.Your location will be automatically logged on the servers.
-  </p>
-</div>
-<div class="container">
-  <img src="report.jpg" height="150px" width="150px"><br>
+   <ul class="nav navbar-nav">
+            <li><a href="news.html">News</a></li>
+     <li><a href="#About">Report</a></li>
+     <li><a href="#About">Contact us</a></li>
+     <li><a href="#log" data-toggle="collapse" data-target="#collapse-form">Login</a></li>
+   </ul>
+ </div>
+</nav>
+
+<div id="collapse-form" class="collapse" style="height: 43px; width:50%;">
+  <form id="log" class="form-inline">
+
+    <span class="glyphicon glyphicon-user"></span><input type="text" name="Username" placeholder="Enter your Username">
+    Password:<input type="Password" name="psw">
+    <center><br>
+      <input type="submit" name="" placeholder="Login" value="Login" class="btn btn-success">
+      <a href="register.html" class="btn btn-info">Register</a></center>
+    </form>
+
+  </div>
   <div>
-  
-  
-
-  <textarea rows="3" style="width: 410px;height: 240px">
-    
-  </textarea><br><input type="file" name="" value="Would you like to upload an image to support your report">
-  <button class="btn btn-success">Submit Report</button>
-</div></div>
+    <p>
+      The data you will provide below will be stored in our database for future reference and your Private information will not be shown to our report reviewers.Your location will be automatically logged on the servers.
+    </p>
+  </div>
 
 
 
 
+  <div class="container" style="height: 400px;width: 600px;">
+    <img src="report.jpg" height="150px" width="150px"><br>
+    <div>
+      Incident type:
+      <select name="classification">
+
+        <option value="volvo">Assualt</option>
+        <option value="saab">Corruption</option>
+        <option value="fiat">Theft</option>
+        <option value="fiat">Fire</option>
+
+
+        <option value="audi">Violence</option>
+      </select>
+
+
+      <textarea rows="3" style="width: 410px;height: 240px">
+
+      </textarea><br><input type="file" name="" value="Would you like to upload an image to support your report">
+      <button class="btn btn-success">Submit Report</button>
+    </div></div>
+
+
+
+    <br>
     <div  style="background-color:#efdddd;width:100%;">
-       <table>
-      <tr>
-        <th>Portals</th>
-        <th>Social Media</th>
-       
-        
-      </tr>
 
-          <tr>
-            <td><a href="">e-Citizen</a></td>
-            <td><a href="">Facebook</a></td>
-          </tr>
+<button onclick="topFunction()" title="Go to top" id="myBtn">Top</button>
+</div>
 
 
-          <tr>
-            <td><a href="">e-Visa</a></td>
-            <td><a href="">Instagram</a></td>
-            <td></td>
-          </tr>
-
-           
-        
-       </table>
-      </div>
-
-
-  </body>
-  </html>
+</body>
+</html>

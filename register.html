@@ -1,87 +1,80 @@
 <html>
-  <head>
-    <title>e-Response</title>
- 	<link rel="stylesheet" type="text/css" href="css/bootstrap.css">
-	<script type="text/javascript" src="js/jquery.min.js"></script>
-	<script type="text/javascript" src="js/bootstrap.min.js"></script>
+<head>
+  <title>e-Response</title>
+  <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+    
+  <script type="text/javascript" src="js/jquery.min.js"></script>
+  <script type="text/javascript" src="js/bootstrap.min.js"></script>
+  <link rel="stylesheet" type="text/css" href="custom.css">
+  <script type="text/javascript" src="custom.js"></script>
   <meta name="viewport" content="width=device-width, initial-scale=1">
-   
-  </head>
-  <body>
-  	<nav class="nav navbar-default">
 
-  		<div class="navbar-header">
-  		<div class="nav navbar-brand">
-  			<a href="index.html">e-Response</a>
-  		</div>
+</head>
+<body>
+  <nav class="nav navbar-default">
 
-  		<ul class="nav navbar-nav">
-  			<li><a href="#About">About us</a></li>
-  			<li><a href="About">Contact us</a></li>
-  			<li><a href="About">Login</a></li>
+    <div class="navbar-header">
+      <div class="nav navbar-brand">
+        <a href="index.html">e-Response</a>
+      </div>
 
-  		</ul>
+      <ul class="nav navbar-nav">
+        <li><a href="news.html">News</a></li>
+        <li><a href="#About">Report</a></li>
+        <li><a href="#About">Contact us</a></li>
+        <li><a href="#log" data-toggle="collapse" data-target="#collapse-form">Login</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <div id="collapse-form" class="collapse" style="height: 43px; width:50%;">
+    <form id="log" class="form-inline">
+
+      <span class="glyphicon glyphicon-user"></span><input type="text" name="Username" placeholder="Enter your Username">
+      Password:<input type="Password" name="psw">
+      <center><br>
+        <input type="submit" name="" placeholder="Login" value="Login" class="btn btn-success">
+        <a href="register.html" class="btn btn-info">Register</a></center>
+      </form>
+
+    </div>
 
 
-  		</div>
-  	</nav>
-
-
- 
     <h1>Register</h1>
     <h2>Join the community and break the silence!<span class="  glyphicon glyphicon-thumbs-up"></span></h2>
-  	<div class="" style="margin-left: auto;margin-right: auto; height: 350px; width: 500px; background-color: grey;">
-  	
-  
+
+    <div class="" style="margin-left: auto;margin-right: auto; height: 350px; width: 500px; background-color: grey;border-radius: 10%; background-color: grey;">
+
+
       <center>
-  		<form>
-        Username:<input type="text" name="Username" placeholder="Enter your First Name"><br><br>
-  			First Name:<input type="text" name="Username" placeholder="Enter your First Name"><br><br>
-  			Second Name:<input type="text" name="Username" placeholder="Enter your Second Name"><br><br>
-        Email:<input type="email" name="Username" placeholder="Enter your E-mail"><br><br>
-        Password:<input type="password" name="Username" placeholder="Enter your Password"><br><br>
-  			Confirm-Password:<input type="password" name="Username" placeholder="Re-Enter your Password"><br><br>
-        
-        <input type="submit" value="Register" placeholder="Register"><br><br>
-  		</center>
-      </form>
-      </div>
 
-  			
-			
-  			</div>
+        <form>
 
-  		</form>
-  		
-  	</div>
+        Username:<input type="text" name="Username" placeholder="Enter your First Name"> <br><br>
+        First Name:<input type="text" name="Username" placeholder="Enter your First Name"> <br><br>
+        Second Name:<input type="text" name="Username" placeholder="Enter your Second Name"> <br><br>
+        Email:<input type="email" name="Username" placeholder="Enter your E-mail"> <br><br>
+        Password:<input type="password" name="Username" placeholder="Enter your Password"> <br><br>
+        Confirm-Password:<input type="password" name="Username" placeholder="Re-Enter your Password"> <br><br>
 
-
-          <div  style="background-color:#efdddd;width:100%;">
-       <table>
-      <tr>
-        <th>Portals</th>
-        <th>Social Media</th>
+          <input type="submit" value="Register" placeholder="Register"><br><br>
        
-        
-      </tr>
-
-          <tr>
-            <td><a href="">e-Citizen</a></td>
-            <td><a href="">Facebook</a></td>
-          </tr>
+      </form>
+    </center></div>
 
 
-          <tr>
-            <td><a href="">e-Visa</a></td>
-            <td><a href="">Instagram</a></td>
-            <td></td>
-          </tr>
+<div  style="background-color:#efdddd;width:100%;">
+<table>
+<tr>
+  <td>
+    <a href="">e-Citizen</a>
+    <a href="">e-Visa</a>  
 
-           
-        
-       </table>
-      </div>
+</td></tr>
+</table>
+<button onclick="topFunction()" title="Go to top" id="myBtn">Top</button>
+</div>
 
 
-  </body>
+</body>
 </html>

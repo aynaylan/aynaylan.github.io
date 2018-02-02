@@ -20,6 +20,7 @@
 table {
   height: 200px;
   width: 100%;
+ 
 }
 
 table img{
@@ -28,3 +29,21 @@ table img{
   border-radius: 20%;
 }
 
+#violence{
+  height:150px;
+  width: 150px;
+  border-radius: 15%;
+}
+
+
+
+
+#effect{
+
+  height: 
+  
+  width:100%;
+  -webkit-box-shadow: -4px 7px 50px 0px rgba(60,107,100,0.57);
+  -moz-box-shadow: -4px 7px 50px 0px rgba(60,107,100,0.57);
+   box-shadow: -4px 7px 50px 0px rgba(60,107,100,0.57)
+}

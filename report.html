@@ -64,10 +64,23 @@
       </select>
 
 
-      <textarea rows="3" style="width: 410px;height: 240px">
+      <textarea rows="3" style="width: 410px;height: 240px" name="report">
 
       </textarea><br><input type="file" name="" value="Would you like to upload an image to support your report">
-      <button class="btn btn-success">Submit Report</button>
+     <input type="submit" value="Report" class="btn btn-success">
+     <?php
+
+     if(isset($_GET['report'])){
+     $app=$_GET['report'];
+     if($app!=NULL){
+     echo "<b>Thanks for reporting</b>"
+      }
+     
+
+     }
+
+
+      ?>
     </div></div>
 
 
